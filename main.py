@@ -1,9 +1,10 @@
 import os
+import random
 from flask import Flask
 app = Flask(__name__)
 def get_today_top_question():
   all_res=[]
-  with open("easy_top_qustion.txt",'r') as fp:
+  with open("./easy_top_qustion.txt",'r') as fp:
     for line in fp:
       q=line.strip()
       all_res.append(q)
