@@ -1,0 +1,17 @@
+{
+  "envId": "{{env.ENV_ID}}",
+  "version": "2.0",
+  "framework": {
+    "name": "tcbc-hshs",
+    "plugins": {
+      "container": {
+        "use": "@cloudbase/framework-plugin-container",
+        "inputs": {
+          "serviceName": "tcbc-hshs",
+          "servicePath": "tcbc-hshs",
+          "containerPort": 8080
+        }
+      }
+    }
+  }
+}
