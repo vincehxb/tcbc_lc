@@ -20,4 +20,4 @@ def hello_world():
 #   all_questions_rand=get_today_top_question()
 #   return f"{}\nTodays LeetCode Question:\n{}".format(current_time,all_questions_rand[0])
 if __name__ == "__main__":
-  app.run(debug=True, host='0.0.0.0', port=80)
+  app.run(debug=True, host='0.0.0.0', port=8080)
