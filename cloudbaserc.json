@@ -9,7 +9,7 @@
         "inputs": {
           "serviceName": "get-ip",
           "servicePath": "/get-ip",
-          "containerPort": 8080
+          "containerPort": 80
         }
       }
     }
